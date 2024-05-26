@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katarina Tuhtan e-portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Katarina Tuhtan</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Katarina Tuhtan</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/me2.png" alt="Profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Katarina Tuhtan</h1>
+      <p class="section__text__p2">Student developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/KatarinaTuhtanCV.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/katarina-tuhtan-7126252b9'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/katarinatuhtan'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about.JPEG" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p><br> <br><p class="section__text2">currently</p>intern at GDi</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p><br> <br><p class="section__text2">2017-2021</p>Salesian Classical Gymnasium <br> 
+            <br><p class="section__text2">2021-currently</p>Faculty of Informatics and Digital Technologies </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I'm a student currently in my third year at the Faculty of Informatics and Digital Technologies in Rijeka.
+            I'm on the fast track to earning my Bachelor's degree and I'm eagerly exploring exciting job opportunities
+            in the dynamic field of technology.
+            I have gained a solid foundation in various aspects of informatics and digital technologies.
+            My academic journey has equipped me with the skills and knowledge necessary to thrive in the rapidly
+            evolving tech landscape.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <p class="section__text__p1"> My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C#</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Angular</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>.NET</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Wordpress</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+<!-- 
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/snake.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Snake Game</h2>
+          <p>Snake is a desktop game developed in C#.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/katarinatuhtan/snake'">
+              Github
+            </button>
+
+          </div>
+        </div> -->
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <div class="image-container">
+              <img src="./assets/snake.png" alt="Project 1" class="project-img" onclick="openGallery('gallery1')" />
+            </div>
+            <div id="galleryModalgallery1" class="modal">
+              <span class="close" onclick="closeGallery('gallery1')">&times;</span>
+              <button class="prev" onclick="prevImage('gallery1')">&#10094;</button>
+              <button class="next" onclick="nextImage('gallery1')">&#10095;</button>
+              <div id="galleryContentgallery1"></div>
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">Snake Game</h2>
+          <p>Snake is a desktop game developed in C#.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/katarinatuhtan/snake'">
+              Github
+            </button>
+          </div>
+        </div>
+        
+        
+        
+        <!-- <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/freya.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Web application</h2>
+          <p>Nail studio Freya is a web application made with Angular CLI and .NET API.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/katarinatuhtan/freya'">
+              Github
+            </button>
+          </div>
+        </div> -->
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <div class="image-container">
+              <img src="./assets/freya.png" alt="Project 2" class="project-img" onclick="openGallery('gallery2')" />
+            </div>
+            <div id="galleryModalgallery2" class="modal">
+              <span class="close" onclick="closeGallery('gallery2')">&times;</span>
+              <button class="prev" onclick="prevImage('gallery2')">&#10094;</button>
+              <button class="next" onclick="nextImage('gallery2')">&#10095;</button>
+              <div id="galleryContentgallery2"></div>
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">Web application</h2>
+          <p>Nail studio Freya is a web application made with Angular CLI and .NET API.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/katarinatuhtan/freya'">
+              Github
+            </button>
+          </div>
+        </div>
+        
+
+        <!-- <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/lumi.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Desktop application</h2>
+          <p>Lumi is an desktop application developed in C# using the .NET Framework's WPF.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/katarinatuhtan/lumi'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>-->
+  
+
+    <div class="details-container color-container">
+      <div class="article-container">
+          <img src="./assets/lumi.png" alt="Project 3" class="project-img" onclick="openGallery('gallery3')" />
+        <div id="galleryModalgallery3" class="modal">
+          <span class="close" onclick="closeGallery('gallery3')">&times;</span>
+          <button class="prev" onclick="prevImage('gallery3')">&#10094;</button>
+          <button class="next" onclick="nextImage('gallery3')">&#10095;</button>
+          <div id="galleryContentgallery3"></div>
+        </div>
+      </div>
+      <h2 class="experience-sub-title project-title">Desktop application</h2>
+      <p>Lumi is an desktop application developed in C# using the .NET Framework's WPF.</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/katarinatuhtan/freya'">
+          Github
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <!-- <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/kasani.png" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Webshop</h2>
+          <p>Webshop Kasani is currently in development.
+            The design was created in Figma, and WordPress is used for development.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/katarinatuhtan'">
+              Github
+            </button>
+
+          </div>
+        </div> -->
+
+        <div class="details-container color-container">
+          <div class="article-container">
+              <img src="./assets/kasani.png" alt="Project 4" class="project-img" onclick="openGallery('gallery4')" />
+            <div id="galleryModalgallery4" class="modal">
+              <span class="close" onclick="closeGallery('gallery4')">&times;</span>
+              <button class="prev" onclick="prevImage('gallery4')">&#10094;</button>
+              <button class="next" onclick="nextImage('gallery4')">&#10095;</button>
+              <div id="galleryContentgallery4"></div>
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">Webshop</h2>
+          <p>Webshop Kasani is currently in development.
+            The design was created in Figma, and WordPress is used for development.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/katarinatuhtan'">
+              Github
+            </button>
+          </div>
+        </div>
+
+        <!-- <div class="details-container color-container">
+          <div class="article-container1">
+            <img src="./assets/tictactoe.png" alt="Project 5" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Tic Tac Toe game</h2>
+          <p>Tic Tac Toe is a mobile game developed in JavaScript.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/katarinatuhtan/prototip'">
+              Github
+            </button>
+          </div>
+        </div> -->
+
+        <div class="details-container color-container">
+          <div class="article-container">
+              <img src="./assets/tictactoe.png" alt="Project 5" class="project-img" onclick="openGallery('gallery5')" />
+            <div id="galleryModalgallery5" class="modal">
+              <span class="close" onclick="closeGallery('gallery5')">&times;</span>
+              <button class="prev" onclick="prevImage('gallery5')">&#10094;</button>
+              <button class="next" onclick="nextImage('gallery5')">&#10095;</button>
+              <div id="galleryContentgallery5"></div>
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">Tic Tac Toe game</h2>
+          <p>Tic Tac Toe is a mobile game developed in JavaScript.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/katarinatuhtan/prototip'">
+              Github
+            </button>
+          </div>
+        </div>
+
+        <!-- <div class="details-container color-container">
+          <div class="article-container2">
+            <img src="./assets/volonteri.png" alt="Project 6" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Web application</h2>
+          <p>VolonteRI is a web application developed in Python using Django framework.
+          </p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/katarinatuhtan/PWprojekt'">
+              Github
+            </button>
+          </div>
+        </div> -->
+
+        <div class="details-container color-container">
+          <div class="article-container">
+              <img src="./assets/volonteri.png" alt="Project 6" class="project-img" onclick="openGallery('gallery6')" />
+            <div id="galleryModalgallery6" class="modal">
+              <span class="close" onclick="closeGallery('gallery6')">&times;</span>
+              <button class="prev" onclick="prevImage('gallery6')">&#10094;</button>
+              <button class="next" onclick="nextImage('gallery6')">&#10095;</button>
+              <div id="galleryContentgallery6"></div>
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">Web application</h2>
+          <p>VolonteRI is a web application developed in Python using Django framework.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/katarinatuhtan/PWprojekt'">
+              Github
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:katarina.tuhtan@gmail.com">Email</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/katarina-tuhtan-7126252b9">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Katarina Tuhtan. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
