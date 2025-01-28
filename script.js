@@ -32,9 +32,12 @@ var galleries = {
     "./assets/tictactoe3.png"
   ],
   gallery6: [
-    "./assets/volonteri.png",
-    "./assets/volonteri2.png",
-    "./assets/volonteri3.png"
+    "./assets/dental_home.png",
+    "./assets/dental_about.png",
+    "./assets/dental_services.png",
+    "./assets/dental_contact.png",
+    "./assets/dental_form.png"
+
   ],
 };
 
